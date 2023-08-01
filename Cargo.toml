@@ -1,0 +1,21 @@
+[package]
+name = "crape"
+version = "0.0.1"
+authors = ["nomlab <https://github.com/nomlab>"]
+edition = "2021"
+description = "Version Control System for Entire of Filesystem"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.26"
+anyhow = "1.0.72"
+const_format = "0.2.31"
+clap = { version = "4.3.19", features = ["derive"] }
+serde = { version = "1.0.180", features = ["derive"] }
+toml = "0.7.6"
+chrono = "0.4.26"
+sha1 = "0.10.5"
+thiserror = "1.0.44"
+os_pipe = "1.1.4"
+walkdir = "2.3.3"
